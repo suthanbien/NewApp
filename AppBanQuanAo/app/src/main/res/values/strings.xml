@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Bill Fashions</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="quen_mat_khau">Quên mật khẩu?</string>
+    <string name="dang_nhap">Đăng Nhập</string>
+    <string name="dang_ky">Đăng Ký</string>
+    <string name="hoac">hoặc</string>
+    <string name="khong_co_TK_DK">Không có tài khoản? Đăng ký?</string>
+    <string name="ho_va_ten">Họ và Tên</string>
+    <string name="Email_hoac_tai_khoang">Email hoặc tài khoản</string>
+    <string name="tai_khoan_dk">Email hoặc tài khoản (dùng để đăng nhập)</string>
+    <string name="tai_khoan_dk_da_co">Email hoặc tài khoản đã có</string>
+    <string name="tenDM_hoacMK_khong_dung">Tên đăng nhập hoặc mật khẩu không chính xác!!</string>
+    <string name="mat_khau">Mật khẩu</string>
+    <string name="mat_khau_nhieu_hon_8">Mật khẩu (nhiều hơn 8 ký tự)</string>
+    <string name="nhap_lai_mat_khau">Nhập lại mật khẩu </string>
+    <string name="co_TK_DN">Có tài khoản? Đăng nhập?</string>
+    <string name="mat_khau_nhap_lai_khong_dung">Mật khẩu nhập lại không đúng</string>
+    <string name="ten_dang_nhap_khong_dung">Email hoặc tên đăng nhập không chính xác</string>
+    <string name="tai_khoan_chua_xac_nhan_email">Tài khoản này chưa xác nhận Email vui lòng liên hệ trung tâm hỗ trợ khách hàng</string>
+    <string name="nhap_email_layMK">Nhập địa chỉ Email đăng ký để lấy lại mật khẩu</string>
+    <string name="khong_co_email">Nếu không có Email hoặc Email không còn sử dụng vui lòng liên hệ trung tâm hỗ trợ khách hàng</string>
+    <string name="tro_Lai"> &lt; &lt; Quay lại</string>
+    <string name="Lay_MK">Lấy Mật Khẩu</string>
+    <string name="nhap_Email_o_day">Nhập Email ở đây</string>
+    <string name="lay_MK_ThanhCong">Lấy mật khẩu thành công!! Kiểm tra Email của bạn.</string>
+    <string name="lay_MK_ThatBai">Lấy mật khẩu thất bại, Kiểm tra lại thông tin</string>
+    <string name="tim_Kiem">Tìm kiếm</string>
+    <string name="gio_hang">Giỏ hàng</string>
+    <string name="thong_bao">Thông báo</string>
+    <string name="trang_chu">Trang chủ</string>
+    <string name="don_hang">Đơn hàng</string>
+    <string name="yeu_thich">Yêu thích</string>
+    <string name="ma_giam_gia">Mã giảm giá</string>
+    <string name="tai_khoan">Tài khoản</string>
+    <string name="dang_xuat">Đăng xuất</string>
+    <string name="chua_dang_nhap">Chưa đăng nhập</string>
+    <string name="dia_chi_Email">Địa chỉ mail</string>
+    <string name="deal_of_day">Deals of the Day!!</string>
+    <string name="Xem_them">Xem thêm</string>
+    <string name="trending">#Trào lưu!!</string>
+    <string name="thongTin">Thông tin</string>
+    <string name="thongTinSanPham">Thông tin sản phẩm</string>
+    <string name="chiTiet">Chi tiết</string>
+    <string name="thongTinThem">Thông tin thêm</string>
+    <string name="danhGia">Đánh giá</string>
+    <string name="danhGiaCuaBan">Đánh giá của bạn</string>
+    <string name="tongCong">Tổng cộng</string>
+
+
+    <string name="title_activity_trang_chu">TrangChuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="test">Lorem ipsum dolor sit amet, quam suscipit pede pretium etiam ultrices in,
+        faucibus in arcu orci ante est, in non nunc nunc id, magnis vitae duis feugiat ac vestibulum vivamus,
+        neque ratione pulvinar nec sit quis. Enim amet eros ut, adipiscing sem non, fusce vel eget odio, per urna.
+        Nam pede convallis lacus class litora, cum dictum, vitae amet. Nulla arcu sed iaculis, velit dictum quis cursus,
+        mauris tincidunt tellus id vivamus nunc pede, morbi nullam faucibus vehicula ac ut orci, volutpat quia bibendum pede.
+        Morbi mauris sed consectetuer, volutpat at, nibh dolor sit aliquam semper quam. Morbi erat neque orci ipsum, magna odio
+        in purus malesuada curabitur justo, a molestie eu donec vitae ultrices, iaculis neque lobortis ut volutpat dui semper.
+        Metus interdum, tincidunt vestibulum lorem sit lacinia velit parturient, porta ligula. Mattis sapien sit imperdiet nam ullamcorper,
+        nulla vitae ac, dictum a sit, donec ultrices. Metus class aliquam turpis, vulputate tristique. Amet ac, tortor nunc, convallis
+        id elit risus interdum vestibulum, eu et rutrum, lectus wisi malesuada volutpat nibh. Ut bibendum purus nec, faucibus vivamus
+        nullam augue, dictum vulputate placerat vestibulum etiam et montes</string>
+
+
+</resources>
+

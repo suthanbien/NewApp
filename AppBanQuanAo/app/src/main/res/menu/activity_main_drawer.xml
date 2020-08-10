@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_trang_chu"
+            android:icon="@mipmap/home"
+            android:title="@string/trang_chu" />
+        <item
+            android:id="@+id/nav_don_hang"
+            android:icon="@mipmap/purchase"
+            android:title="@string/don_hang" />
+        <item
+            android:id="@+id/nav_ma_giam_gia"
+            android:icon="@mipmap/gift"
+            android:title="@string/ma_giam_gia" />
+        <item
+            android:id="@+id/nav_gio_hang"
+            android:icon="@mipmap/shopping_cart"
+            android:title="@string/gio_hang" />
+        <item
+            android:id="@+id/nav_yeu_thich"
+            android:icon="@mipmap/love"
+            android:title="@string/yeu_thich" />
+        <item
+            android:id="@+id/nav_tai_khoan"
+            android:icon="@mipmap/user"
+            android:title="@string/tai_khoan" />
+        <item
+            android:id="@+id/mnu_nav_DangXuat"
+            android:icon="@mipmap/sign_out"
+            android:title="@string/dang_xuat" />
+    </group>
+</menu>

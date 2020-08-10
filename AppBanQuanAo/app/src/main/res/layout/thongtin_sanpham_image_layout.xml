@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/image_sanpham_ViewPage"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/soluong_anhSp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_sanpham_ViewPage"
+        app:tabBackground="@drawable/dot_selecter"
+        app:tabIndicatorHeight="0dp"
+        app:tabRippleColor="@null" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnThemVaoYeuThich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="@color/colorTieuDe"
+        app:srcCompat="@mipmap/love" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Thông Tin Sản Phẩm
+"
+        android:textColor="@color/colorDen"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soluong_anhSp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/slider_backroud"
+        android:backgroundTint="@color/colorPrimary"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:id="@+id/textView_DiemDanhGia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:text="4.5"
+            android:textColor="@color/colorTrang"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+
+
+            android:layout_gravity="center"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:src="@mipmap/star"
+            android:tint="@color/colorTrang" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_DiemDanhGiaTTSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+
+        android:text="Điểm đánh giá"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/textView_Gia_TTSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Giá: 200.000 VNĐ"
+        android:textColor="@color/colorDen"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/textView_GiaCu_TTSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giá củ: 250.000 VNĐ"
+        app:layout_constraintStart_toStartOf="@+id/textView_Gia_TTSP"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Gia_TTSP" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+
+        android:background="#80000000"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_GiaCu_TTSP"
+        app:layout_constraintEnd_toEndOf="@+id/textView_GiaCu_TTSP"
+        app:layout_constraintStart_toStartOf="@+id/textView_GiaCu_TTSP"
+        app:layout_constraintTop_toTopOf="@+id/textView_GiaCu_TTSP" />
+
+    <ImageView
+        android:id="@+id/imageView_Available_TTSP"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_GiaCu_TTSP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView_Gia_TTSP"
+        app:layout_constraintVertical_bias="0.18"
+        app:srcCompat="@mipmap/quenmk" />
+
+    <TextView
+        android:id="@+id/textView_Available_TTSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Available"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_Available_TTSP"
+        app:layout_constraintStart_toStartOf="@+id/imageView_Available_TTSP"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_Available_TTSP" />
+
+    <LinearLayout
+        android:id="@+id/kiemTra_MaGG_Layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Available_TTSP">
+
+
+        <TextView
+            android:id="@+id/textView_KiemTraMGG_TTSP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Kiểm tra lại giá sau khi dùng mã"
+            android:textColor="@color/colorTrang" />
+
+        <Button
+            android:id="@+id/button_KiemTraMGG_TTSP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0"
+            android:background="@drawable/borther_backround"
+            android:text="REDEM"
+            android:textColor="@color/colorTrang"
+            android:textSize="12sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

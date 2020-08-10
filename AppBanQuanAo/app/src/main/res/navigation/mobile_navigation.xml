@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_trang_chu">
+
+    <fragment
+        android:id="@+id/nav_trang_chu"
+        android:name="com.example.appbanquanao.Fragment.TrangChu.TrangChuFragment"
+        android:label="@string/trang_chu"
+        tools:layout="@layout/fragment_trang_chu" />
+
+    <fragment
+        android:id="@+id/nav_ma_giam_gia"
+        android:name="com.example.appbanquanao.Fragment.MaGiamGia.MaGiamGiaFragment"
+        android:label="@string/ma_giam_gia"
+        tools:layout="@layout/fragment_ma_giam_gia" />
+
+    <fragment
+        android:id="@+id/nav_don_hang"
+        android:name="com.example.appbanquanao.Fragment.DonHang.DonHangFragment"
+        android:label="@string/don_hang"
+        tools:layout="@layout/fragment_don_hang" />
+    <fragment
+        android:id="@+id/nav_tai_khoan"
+        android:name="com.example.appbanquanao.Fragment.TaiKhoan.TaiKhoanFragment"
+        android:label="tai_khoan_fragment"
+        tools:layout="@layout/fragment_tai_khoan" />
+    <fragment
+        android:id="@+id/nav_yeu_thich"
+        android:name="com.example.appbanquanao.Fragment.YeuThich.YeuThichFragment"
+        android:label="yeu_thich_fragment"
+        tools:layout="@layout/yeu_thich_fragment" />
+    <fragment
+        android:id="@+id/nav_gio_hang"
+        android:name="com.example.appbanquanao.Fragment.GioHang.GioHangFragment"
+        android:label="gio_hang_fragment"
+        tools:layout="@layout/fragment_gio_hang" />
+</navigation>

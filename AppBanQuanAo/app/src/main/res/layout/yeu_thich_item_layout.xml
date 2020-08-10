@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroudnd_trang"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <View
+        android:id="@+id/divider12"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+
+        android:background="#80000000"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_Love_GiaSPCu"
+        app:layout_constraintEnd_toEndOf="@+id/textView_Love_GiaSPCu"
+        app:layout_constraintStart_toStartOf="@+id/textView_Love_GiaSPCu"
+        app:layout_constraintTop_toTopOf="@+id/textView_Love_GiaSPCu" />
+
+    <TextView
+        android:id="@+id/textView_Love_GiaSPCu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Giá củ: 250.000 VNĐ"
+        app:layout_constraintStart_toStartOf="@+id/textView_Love_GiaSP"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Love_GiaSP" />
+
+    <TextView
+        android:id="@+id/textView_Love_GiaSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Giá: 200.000 VNĐ"
+        android:textColor="@color/colorDen"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/textView_SoLuongDanhGia_Love"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+
+        android:text="Điểm đánh giá"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/slider_backroud"
+        android:backgroundTint="@color/colorPrimary"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/freeCouponIcon_love"
+        app:layout_constraintTop_toBottomOf="@+id/freeCouponIcon_love">
+
+        <TextView
+            android:id="@+id/textView_DiemDanhGia_Love"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:text="4.5"
+            android:textColor="@color/colorTrang"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView_DIemDanhGia_Love"
+            android:layout_width="15dp"
+
+
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:src="@mipmap/star"
+            android:tint="@color/colorTrang" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView_Love_anhSp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_Love_GiaSPCu"
+        app:layout_constraintEnd_toStartOf="@+id/guideline19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/quanao3" />
+
+    <TextView
+        android:id="@+id/textView_Love_TenSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Quần què"
+        android:textColor="@color/colorDen"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/guideline19"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/freeCouponIcon_love"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/textView_Love_TenSP"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Love_TenSP"
+        app:srcCompat="@mipmap/price_tag" />
+
+    <TextView
+        android:id="@+id/txt_free_coupen_Love"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Free 2 coupent"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/freeCouponIcon_love"
+        app:layout_constraintStart_toEndOf="@+id/freeCouponIcon_love"
+        app:layout_constraintTop_toTopOf="@+id/freeCouponIcon_love" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.31" />
+
+    <ImageView
+        android:id="@+id/imageView_Delete_Love"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/delete_bin" />
+</androidx.constraintlayout.widget.ConstraintLayout>
